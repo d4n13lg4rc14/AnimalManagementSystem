@@ -7,8 +7,6 @@ public class DbContext {
 
     private Connection connection;
 
-
-
     private static final String nameClass = "com.mysql.jdbc.Driver";
     private static final String connPath  = "jdbc:mysql://localhost:3306/sonoo\",\"root\",\"root";
 
