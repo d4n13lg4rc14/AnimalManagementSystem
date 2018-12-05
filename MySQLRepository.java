@@ -12,6 +12,7 @@ public class MySQLRepository<T extends BaseEntity> implements IRepository<T> {
 
     public MySQLRepository(DbContext context) {
         this.context = context;
+
     }
 
     @Override
